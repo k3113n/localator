@@ -5,13 +5,353 @@ Shell script to generate i18n-js compatible locale.json files for Google Play's 
 ./localator.sh strings.txt
 
 # content of "strings.txt" (doesn't need to be named that)
-hello   
-goodbye   
-Do you have the time?   
+Hello!   
+I'm Bob, what's your name?   
 
 # example output
-{   
-"hello": {"af": "hallo","sq": "Përshëndetje","am": "ሀሎ","ar": "ﺎﺒًﺣﺮﻣ","hy-AM": "Բարեւ","az-AZ": "Salam","bn-BD": "হ্যালো","eu-ES": "kaixo","be": "добры дзень","bg": "Здравейте","my-MM": "မင်္ဂလာပါ","ca": "Hola","zh-HK": "你好","zh-CN": "你好","zh-TW": "你好","hr": "zdravo","cs-CZ": "Ahoj","da-DK": "Hej","nl-NL": "Hallo","en-IN": "hello","en-SG": "hello","en-ZA": "hello","en-AU": "hello","en-CA": "hello","en-GB": "hello","en-US": "hello","et": "Tere","fil": "Kamusta","fi-FI": "Hei","fr-CA": "Allô","fr-FR": "Bonjour","gl-ES": "ola","ka-GE": "გამარჯობა","de-DE": "Hallo","el-GR": "Γειά σου","gu": "નમસ્તે","iw-IL": "שלום","hi-IN": "नमस्ते","hu-HU": "Helló","is-IS": "Halló","id": "Halo","it-IT": "Ciao","ja-JP": "こんにちは","kn-IN": "ನಮಸ್ಕಾರ","kk": "Сәлеметсіз бе","km-KH": "សួស្តី","ko-KR": "안녕하세요","ky-KG": "Салам","lo-LA": "ສະບາຍດີ","lv": "Sveiki","lt": "Sveiki","mk-MK": "Здраво","ms": "hello","ms-MY": "hello","ml-IN": "ഹലോ","mr-IN": "नमस्कार","mn-MN": "Сайн уу","ne-NP": "नमस्कार","no-NO": "Hallo","fa": "ﻡﻼ﻿ﺳ","fa-AE": "ﻡﻼ﻿ﺳ","fa-AF": "ﻡﻼ﻿ﺳ","fa-IR": "ﻡﻼ﻿ﺳ","pl-PL": "Witam","pt-BR": "olá","pt-PT": "olá;","pa": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ","ro": "Buna ziua","ru-RU": "привет","sr": "Здраво","si-LK": "ආයුබෝවන්","sk": "Ahoj","sl": "zdravo","es": "Hola","es-ES": "Hola","es-US": "Hola","sw": "habari","sv-SE": "Hallå","ta-IN": "வணக்கம்","te-IN": "హలో","th": "สวัสดี","tr-TR": "Merhaba","uk": "привіт","ur": "ﻮﻠﯿﮨ","vi": "Xin chào","zu": "Sawubona"},   
-"goodbye": {"af": "totsiens","sq": "mirupafshim","am": "በህና ሁን","ar": "ﺔﻣﻼ﻿ﺴﻟﺍ ﻊﻣ","hy-AM": "ցտեսություն","az-AZ": "sağol","bn-BD": "বিদায়","eu-ES": "agur","be": "да пабачэння","bg": "Довиждане","my-MM": "သွားတော့မယ်","ca": "adéu","zh-HK": "再见","zh-CN": "再见","zh-TW": "再見","hr": "Doviđenja","cs-CZ": "Ahoj","da-DK": "farvel","nl-NL": "tot ziens","en-IN": "goodbye","en-SG": "goodbye","en-ZA": "goodbye","en-AU": "goodbye","en-CA": "goodbye","en-GB": "goodbye","en-US": "goodbye","et": "hüvasti","fil": "paalam","fi-FI": "Hyvästi","fr-CA": "Au revoir","fr-FR": "au revoir","gl-ES": "adeus","ka-GE": "ნახვამდის","de-DE": "Verabschiedung","el-GR": "αντιο σας","gu": "આવજો","iw-IL": "הֱיה שלום","hi-IN": "अलविदा","hu-HU": "viszontlátásra","is-IS": "bless","id": "selamat tinggal","it-IT": "arrivederci","ja-JP": "さようなら","kn-IN": "ವಿದಾಯ","kk": "Сау болыңыз","km-KH": "លាហើយ","ko-KR": "안녕히 가세요","ky-KG": "Саламатта болуңуз","lo-LA": "ສະບາຍດີ","lv": "ardievu","lt": "atsisveikink","mk-MK": "збогум","ms": "selamat tinggal","ms-MY": "selamat tinggal","ml-IN": "വിട","mr-IN": "निरोप","mn-MN": "Баяртай","ne-NP": "अलविदा","no-NO": "ha det","fa": "ﻆﻓﺎﺣﺍﺪﺧ","fa-AE": "ﻆﻓﺎﺣﺍﺪﺧ","fa-AF": "ﻆﻓﺎﺣﺍﺪﺧ","fa-IR": "ﻆﻓﺎﺣﺍﺪﺧ","pl-PL": "do widzenia","pt-BR": "adeus","pt-PT": "adeus;","pa": "ਅਲਵਿਦਾ","ro": "La revedere","ru-RU": "до свидания","sr": "збогом","si-LK": "ආයුබෝවන්","sk": "Zbohom","sl": "nasvidenje","es": "adiós","es-ES": "adiós","es-US": "adiós","sw": "kwaheri","sv-SE": "adjö","ta-IN": "பிரியாவிடை","te-IN": "వీడ్కోలు","th": "ลาก่อน","tr-TR": "Güle güle","uk": "до побачення","ur": "ﻆﻓﺎﺣ ﺍﺪﺧ","vi": "tạm biệt","zu": "Hamba kahle"},   
-"Do you have the time?": {"af": "Hoe laat is dit?","sq": "A keni kohë?","am": "ጊዜ አሎት?","ar": "؟ﺖﻗﻭ ﻚﻳﺪﻟ ﻞﻫ","hy-AM": "Դուք ժամանակ ունեք?","az-AZ": "Sənin vaxtın var?","bn-BD": "আপনার কি সময় আছে?","eu-ES": "Baduzu denborarik?","be": "У вас ёсць час?","bg": "Имаш ли времето?","my-MM": "မင်းမှာ အချိန်ရှိလား။","ca": "Tens el temps?","zh-HK": "你有时间吗？","zh-CN": "你有时间吗？","zh-TW": "你有時間嗎？","hr": "Imaš li vremena?","cs-CZ": "Máš čas?","da-DK": "Har du tid?","nl-NL": "Heb je de tijd?","en-IN": "Do you have the time?","en-SG": "Do you have the time?","en-ZA": "Do you have the time?","en-AU": "Do you have the time?","en-CA": "Do you have the time?","en-GB": "Do you have the time?","en-US": "Do you have the time?","et": "Kas teil on aega?","fil": "May oras ka ba?","fi-FI": "Onko sinulla aikaa?","fr-CA": "Avez-vous le temps ?","fr-FR": "As-tu le temps?","gl-ES": "Tes tempo?","ka-GE": "Გაქვთ დრო?","de-DE": "Hast du Zeit?","el-GR": "Εχεις χρόνο?","gu": "શું આપની પાસે સમય છે?","iw-IL": "יש לך זמן?","hi-IN": "क्या आपके पास समय है?","hu-HU": "Van időd?","is-IS": "Hefur þú tíma?","id": "Apakah kamu punya waktu?","it-IT": "Hai il tempo?","ja-JP": "時間ある？","kn-IN": "ನಿಮಗೆ ಸಮಯವಿದೆಯೇ?","kk": "Уақытыңыз бар ма?","km-KH": "តើអ្នកមានពេលទេ?","ko-KR": "시간이 있나요?","ky-KG": "Убактыңыз барбы?","lo-LA": "ເຈົ້າມີເວລາບໍ່?","lv": "Vai tev ir laiks?","lt": "Ar turi laiko?","mk-MK": "Дали ИМАШ време?","ms": "Adakah anda mempunyai masa?","ms-MY": "Adakah anda mempunyai masa?","ml-IN": "താങ്കള്ക്ക് സമയമുണ്ടോ?","mr-IN": "तुला वेळ आहे का?","mn-MN": "Чамд зав байна уу?","ne-NP": "के तपाईसँग समय छ?","no-NO": "Har du tid?","fa": "؟ﯼﺭﺍﺩ ﺖﻗﻭ","fa-AE": "؟ﯼﺭﺍﺩ ﺖﻗﻭ","fa-AF": "؟ﯼﺭﺍﺩ ﺖﻗﻭ","fa-IR": "؟ﯼﺭﺍﺩ ﺖﻗﻭ","pl-PL": "Czy masz czas?","pt-BR": "Você tem tempo?","pt-PT": "Tem tempo?","pa": "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਸਮਾਂ ਹੈ?","ro": "Aveți timp?","ru-RU": "У Вас есть время?","sr": "Имаш ли времена?","si-LK": "ඔබට කාලය තිබේද?","sk": "Máš čas?","sl": "Ali imaš čas?","es": "¿Tienes el tiempo?","es-ES": "¿Tienes el tiempo?","es-US": "¿Tienes el tiempo?","sw": "Uko na wakati?","sv-SE": "Har du tid?","ta-IN": "உனக்கு நேரம் இருக்கிறதா?","te-IN": "మీకు సమయం ఉందా?","th": "คุณมีเวลาไหม?","tr-TR": "Zamanın var mı?","uk": "У вас є час?","ur": "؟ﮯﮨ ﺖﻗﻭ ﺱﺎﭘ ﮯﮐ ﭖﺁ ﺎﯿﮐ","vi": "Bạn có thời gian không?","zu": "Ingabe unaso isikhathi?"}\
-}   
+{
+"af": {
+"Hello!": "Hallo!",
+"I'm Bob, what's your name?": "Ek is Bob, wat is jou naam?"
+},
+"sq": {
+"Hello!": "Përshëndetje!",
+"I'm Bob, what's your name?": "Unë jam Bob, si e keni emrin?"
+},
+"am": {
+"Hello!": "ሀሎ!",
+"I'm Bob, what's your name?": "እኔ ቦብ ነኝ፣ ስምህ ማን ነው?"
+},
+"ar": {
+"Hello!": "!ﺎﺒًﺣﺮﻣ",
+"I'm Bob, what's your name?": "؟ﻚﻤﺳﺍ ﺎﻣ ،ﺏﻮﺑ ﺎﻧﺃ"
+},
+"hy-AM": {
+"Hello!": "Բարեւ Ձեզ!",
+"I'm Bob, what's your name?": "Ես Բոբն եմ, ինչ է քո անունը:"
+},
+"az-AZ": {
+"Hello!": "Salam!",
+"I'm Bob, what's your name?": "Mən Bob, sənin adın nədir?"
+},
+"bn-BD": {
+"Hello!": "হ্যালো!",
+"I'm Bob, what's your name?": "আমি বব, তোমার নাম কি?"
+},
+"eu-ES": {
+"Hello!": "Kaixo!",
+"I'm Bob, what's your name?": "Bob naiz, nola deitzen zara?"
+},
+"be": {
+"Hello!": "Добры дзень!",
+"I'm Bob, what's your name?": "Я Боб, як цябе завуць?"
+},
+"bg": {
+"Hello!": "Здравейте!",
+"I'm Bob, what's your name?": "Аз съм Боб, как се казваш?"
+},
+"my-MM": {
+"Hello!": "မင်္ဂလာပါ!",
+"I'm Bob, what's your name?": "ငါ Bob ပါ၊ မင်းနာမည်ဘယ်လိုခေါ်လဲ။"
+},
+"ca": {
+"Hello!": "Hola!",
+"I'm Bob, what's your name?": "Sóc en Bob, com et dius?"
+},
+"zh-HK": {
+"Hello!": "你好！",
+"I'm Bob, what's your name?": "我是鲍勃，你叫什么名字？"
+},
+"zh-CN": {
+"Hello!": "你好！",
+"I'm Bob, what's your name?": "我是鲍勃，你叫什么名字？"
+},
+"zh-TW": {
+"Hello!": "你好！",
+"I'm Bob, what's your name?": "我是鮑勃，你叫什麼名字？"
+},
+"hr": {
+"Hello!": "Zdravo!",
+"I'm Bob, what's your name?": "Ja sam Bob, kako se zoveš?"
+},
+"cs-CZ": {
+"Hello!": "Ahoj!",
+"I'm Bob, what's your name?": "Já jsem Bob, jak se jmenuješ?"
+},
+"da-DK": {
+"Hello!": "Hej!",
+"I'm Bob, what's your name?": "Jeg er Bob, hvad er dit navn?"
+},
+"nl-NL": {
+"Hello!": "Hallo!",
+"I'm Bob, what's your name?": "Ik ben Bob, hoe heet je?"
+},
+"en-IN": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-SG": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-ZA": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-AU": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-CA": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-GB": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"en-US": {
+"Hello!": "Hello!",
+"I'm Bob, what's your name?": "I'm Bob, what's your name?"
+},
+"et": {
+"Hello!": "Tere!",
+"I'm Bob, what's your name?": "Mina olen Bob, mis su nimi on?"
+},
+"fil": {
+"Hello!": "Kamusta!",
+"I'm Bob, what's your name?": "Ako si Bob, anong pangalan mo?"
+},
+"fi-FI": {
+"Hello!": "Hei!",
+"I'm Bob, what's your name?": "Olen Bob, mikä sinun nimesi on?"
+},
+"fr-CA": {
+"Hello!": "Allô!",
+"I'm Bob, what's your name?": "Je m’appelle Bob, quel est ton nom ?"
+},
+"fr-FR": {
+"Hello!": "Bonjour!",
+"I'm Bob, what's your name?": "Je m'appelle Bob, quel est ton nom ?"
+},
+"gl-ES": {
+"Hello!": "Ola!",
+"I'm Bob, what's your name?": "Son Bob, como te chamas?"
+},
+"ka-GE": {
+"Hello!": "გამარჯობა!",
+"I'm Bob, what's your name?": "მე ვარ ბობი, რა გქვია?"
+},
+"de-DE": {
+"Hello!": "Hallo!",
+"I'm Bob, what's your name?": "Ich bin Bob, wie heißt du?"
+},
+"el-GR": {
+"Hello!": "Γειά σου!",
+"I'm Bob, what's your name?": "Είμαι ο Μπομπ, πώς σε λένε;"
+},
+"gu": {
+"Hello!": "નમસ્તે!",
+"I'm Bob, what's your name?": "હું બોબ છું, તમારું નામ શું છે?"
+},
+"iw-IL": {
+"Hello!": "שלום!",
+"I'm Bob, what's your name?": "אני בוב, איך קוראים לך?"
+},
+"hi-IN": {
+"Hello!": "नमस्ते!",
+"I'm Bob, what's your name?": "मैं बॉब हूं, आपका नाम क्या है?"
+},
+"hu-HU": {
+"Hello!": "Helló!",
+"I'm Bob, what's your name?": "Bob vagyok, hogy hívnak?"
+},
+"is-IS": {
+"Hello!": "Halló!",
+"I'm Bob, what's your name?": "Ég er Bob, hvað heitir þú?"
+},
+"id": {
+"Hello!": "Halo!",
+"I'm Bob, what's your name?": "Saya Bob, siapa namamu?"
+},
+"it-IT": {
+"Hello!": "Ciao!",
+"I'm Bob, what's your name?": "Sono Bob, come ti chiami?"
+},
+"ja-JP": {
+"Hello!": "こんにちは！",
+"I'm Bob, what's your name?": "私はボブです、あなたの名前は何ですか?"
+},
+"kn-IN": {
+"Hello!": "ನಮಸ್ಕಾರ!",
+"I'm Bob, what's your name?": "ನಾನು ಬಾಬ್, ನಿನ್ನ ಹೆಸರೇನು?"
+},
+"kk": {
+"Hello!": "Сәлеметсіз бе!",
+"I'm Bob, what's your name?": "Мен Бобмын, сенің атың кім?"
+},
+"km-KH": {
+"Hello!": "សួស្តី!",
+"I'm Bob, what's your name?": "ខ្ញុំឈ្មោះ Bob តើអ្នកឈ្មោះអ្វី?"
+},
+"ko-KR": {
+"Hello!": "안녕하세요!",
+"I'm Bob, what's your name?": "저는 밥입니다. 당신의 이름은 무엇입니까?"
+},
+"ky-KG": {
+"Hello!": "Салам!",
+"I'm Bob, what's your name?": "Мен Бобмын, сенин атың ким?"
+},
+"lo-LA": {
+"Hello!": "ສະບາຍດີ!",
+"I'm Bob, what's your name?": "ຂ້ອຍຊື່ Bob, ເຈົ້າຊື່ຫຍັງ?"
+},
+"lv": {
+"Hello!": "Sveiki!",
+"I'm Bob, what's your name?": "Es esmu Bobs, kā tevi sauc?"
+},
+"lt": {
+"Hello!": "Sveiki!",
+"I'm Bob, what's your name?": "Aš Bobas, koks tavo vardas?"
+},
+"mk-MK": {
+"Hello!": "Здраво!",
+"I'm Bob, what's your name?": "Јас сум Боб, како се викаш?"
+},
+"ms": {
+"Hello!": "hello!",
+"I'm Bob, what's your name?": "Saya Bob, siapa nama awak?"
+},
+"ms-MY": {
+"Hello!": "hello!",
+"I'm Bob, what's your name?": "Saya Bob, siapa nama awak?"
+},
+"ml-IN": {
+"Hello!": "ഹലോ!",
+"I'm Bob, what's your name?": "ഞാൻ ബോബ്, നിങ്ങളുടെ പേരെന്താണ്?"
+},
+"mr-IN": {
+"Hello!": "नमस्कार!",
+"I'm Bob, what's your name?": "मी बॉब आहे, तुझे नाव काय आहे?"
+},
+"mn-MN": {
+"Hello!": "Сайн уу?",
+"I'm Bob, what's your name?": "Би бол Боб, чамайг хэн гэдэг вэ?"
+},
+"ne-NP": {
+"Hello!": "नमस्ते!",
+"I'm Bob, what's your name?": "म बब हुँ, तिम्रो नाम के हो?"
+},
+"no-NO": {
+"Hello!": "Hallo!",
+"I'm Bob, what's your name?": "Jeg er Bob, hva heter du?"
+},
+"fa": {
+"Hello!": "!ﻡﻼ﻿ﺳ",
+"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"
+},
+"fa-AE": {
+"Hello!": "!ﻡﻼ﻿ﺳ",
+"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"
+},
+"fa-AF": {
+"Hello!": "!ﻡﻼ﻿ﺳ",
+"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"
+},
+"fa-IR": {
+"Hello!": "!ﻡﻼ﻿ﺳ",
+"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"
+},
+"pl-PL": {
+"Hello!": "Cześć!",
+"I'm Bob, what's your name?": "Jestem Bob, jak masz na imię?"
+},
+"pt-BR": {
+"Hello!": "Olá!",
+"I'm Bob, what's your name?": "Eu sou Bob, qual é o seu nome?"
+},
+"pt-PT": {
+"Hello!": "Olá;!",
+"I'm Bob, what's your name?": "Eu sou o Bob, qual é o seu nome?"
+},
+"pa": {
+"Hello!": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ!",
+"I'm Bob, what's your name?": "ਮੈਂ ਬੌਬ ਹਾਂ, ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ?"
+},
+"ro": {
+"Hello!": "Buna ziua!",
+"I'm Bob, what's your name?": "Eu sunt Bob, cum te numești?"
+},
+"ru-RU": {
+"Hello!": "Привет!",
+"I'm Bob, what's your name?": "Я Боб, как тебя зовут?"
+},
+"sr": {
+"Hello!": "Здраво!",
+"I'm Bob, what's your name?": "Ја сам Боб, како се зовеш?"
+},
+"si-LK": {
+"Hello!": "ආයුබෝවන්!",
+"I'm Bob, what's your name?": "මම බොබ්, ඔබේ නම කුමක්ද?"
+},
+"sk": {
+"Hello!": "Ahoj!",
+"I'm Bob, what's your name?": "Ja som Bob, ako sa voláš?"
+},
+"sl": {
+"Hello!": "Zdravo!",
+"I'm Bob, what's your name?": "Jaz sem Bob, kako ti je ime?"
+},
+"es": {
+"Hello!": "¡Hola!",
+"I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"
+},
+"es-ES": {
+"Hello!": "¡Hola!",
+"I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"
+},
+"es-US": {
+"Hello!": "¡Hola!",
+"I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"
+},
+"sw": {
+"Hello!": "Habari!",
+"I'm Bob, what's your name?": "Mimi ni Bob, jina lako nani?"
+},
+"sv-SE": {
+"Hello!": "Hallå!",
+"I'm Bob, what's your name?": "Jag heter Bob, vad heter du?"
+},
+"ta-IN": {
+"Hello!": "வணக்கம்!",
+"I'm Bob, what's your name?": "நான் பாப், உன் பெயர் என்ன?"
+},
+"te-IN": {
+"Hello!": "హలో!",
+"I'm Bob, what's your name?": "నేను బాబ్, నీ పేరు ఏమిటి?"
+},
+"th": {
+"Hello!": "สวัสดี!",
+"I'm Bob, what's your name?": "ฉันชื่อบ๊อบ คุณชื่ออะไร?"
+},
+"tr-TR": {
+"Hello!": "Merhaba!",
+"I'm Bob, what's your name?": "Ben Bob, adın ne?"
+},
+"uk": {
+"Hello!": "Привіт!",
+"I'm Bob, what's your name?": "Я Боб, як тебе звати?"
+},
+"ur": {
+"Hello!": "!ﻮﻠﯿﮨ",
+"I'm Bob, what's your name?": "؟ﮯﮨ ﺎﯿﮐ ﻡﺎﻧ ﺎﮐ ﭖﺁ ،ﮞﻮﮨ ﺏﺎﺑ ﮟﯿﻣ"
+},
+"vi": {
+"Hello!": "Xin chào!",
+"I'm Bob, what's your name?": "Tôi là Bob, tên bạn là gì?"
+},
+"zu": {
+"Hello!": "Sawubona!",
+"I'm Bob, what's your name?": "Ngingu-Bob, ungubani igama lakho?"
+}
+}
