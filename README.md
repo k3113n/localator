@@ -14,6 +14,10 @@ I'm Bob, what's your name?
 "Hello!": "Hallo!",   
 "I'm Bob, what's your name?": "Ek is Bob, wat is jou naam?"   
 },   
+"ak": {   
+"Hello!": "Hɛlo!",   
+"I'm Bob, what's your name?": "Me ne Bob, wo din de dɛn?"   
+},   
 "sq": {   
 "Hello!": "Përshëndetje!",   
 "I'm Bob, what's your name?": "Unë jam Bob, si e keni emrin?"   
@@ -26,19 +30,19 @@ I'm Bob, what's your name?
 "Hello!": "!ﺎﺒًﺣﺮﻣ",   
 "I'm Bob, what's your name?": "؟ﻚﻤﺳﺍ ﺎﻣ ،ﺏﻮﺑ ﺎﻧﺃ"   
 },   
-"hy-AM": {   
+"hy": {   
 "Hello!": "Բարեւ Ձեզ!",   
 "I'm Bob, what's your name?": "Ես Բոբն եմ, ինչ է քո անունը:"   
 },   
-"az-AZ": {   
+"az": {   
 "Hello!": "Salam!",   
 "I'm Bob, what's your name?": "Mən Bob, sənin adın nədir?"   
 },   
-"bn-BD": {   
+"bn": {   
 "Hello!": "হ্যালো!",   
 "I'm Bob, what's your name?": "আমি বব, তোমার নাম কি?"   
 },   
-"eu-ES": {   
+"eu": {   
 "Hello!": "Kaixo!",   
 "I'm Bob, what's your name?": "Bob naiz, nola deitzen zara?"   
 },   
@@ -50,7 +54,7 @@ I'm Bob, what's your name?
 "Hello!": "Здравейте!",   
 "I'm Bob, what's your name?": "Аз съм Боб, как се казваш?"   
 },   
-"my-MM": {   
+"my": {   
 "Hello!": "မင်္ဂလာပါ!",   
 "I'm Bob, what's your name?": "ငါ Bob ပါ၊ မင်းနာမည်ဘယ်လိုခေါ်လဲ။"   
 },   
@@ -58,59 +62,27 @@ I'm Bob, what's your name?
 "Hello!": "Hola!",   
 "I'm Bob, what's your name?": "Sóc en Bob, com et dius?"   
 },   
-"zh-HK": {   
+"zh": {   
 "Hello!": "你好！",   
 "I'm Bob, what's your name?": "我是鲍勃，你叫什么名字？"   
-},   
-"zh-CN": {   
-"Hello!": "你好！",   
-"I'm Bob, what's your name?": "我是鲍勃，你叫什么名字？"   
-},   
-"zh-TW": {   
-"Hello!": "你好！",   
-"I'm Bob, what's your name?": "我是鮑勃，你叫什麼名字？"   
 },   
 "hr": {   
 "Hello!": "Zdravo!",   
 "I'm Bob, what's your name?": "Ja sam Bob, kako se zoveš?"   
 },   
-"cs-CZ": {   
+"cs": {   
 "Hello!": "Ahoj!",   
 "I'm Bob, what's your name?": "Já jsem Bob, jak se jmenuješ?"   
 },   
-"da-DK": {   
+"da": {   
 "Hello!": "Hej!",   
 "I'm Bob, what's your name?": "Jeg er Bob, hvad er dit navn?"   
 },   
-"nl-NL": {   
+"nl": {   
 "Hello!": "Hallo!",   
 "I'm Bob, what's your name?": "Ik ben Bob, hoe heet je?"   
 },   
-"en-IN": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-SG": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-ZA": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-AU": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-CA": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-GB": {   
-"Hello!": "Hello!",   
-"I'm Bob, what's your name?": "I'm Bob, what's your name?"   
-},   
-"en-US": {   
+"en": {   
 "Hello!": "Hello!",   
 "I'm Bob, what's your name?": "I'm Bob, what's your name?"   
 },   
@@ -122,31 +94,23 @@ I'm Bob, what's your name?
 "Hello!": "Kamusta!",   
 "I'm Bob, what's your name?": "Ako si Bob, anong pangalan mo?"   
 },   
-"fi-FI": {   
+"fi": {   
 "Hello!": "Hei!",   
 "I'm Bob, what's your name?": "Olen Bob, mikä sinun nimesi on?"   
 },   
-"fr-CA": {   
-"Hello!": "Allô!",   
-"I'm Bob, what's your name?": "Je m’appelle Bob, quel est ton nom ?"   
-},   
-"fr-FR": {   
+"fr": {   
 "Hello!": "Bonjour!",   
 "I'm Bob, what's your name?": "Je m'appelle Bob, quel est ton nom ?"   
 },   
-"gl-ES": {   
-"Hello!": "Ola!",   
-"I'm Bob, what's your name?": "Son Bob, como te chamas?"   
-},   
-"ka-GE": {   
+"ka": {   
 "Hello!": "გამარჯობა!",   
 "I'm Bob, what's your name?": "მე ვარ ბობი, რა გქვია?"   
 },   
-"de-DE": {   
+"de": {   
 "Hello!": "Hallo!",   
 "I'm Bob, what's your name?": "Ich bin Bob, wie heißt du?"   
 },   
-"el-GR": {   
+"el": {   
 "Hello!": "Γειά σου!",   
 "I'm Bob, what's your name?": "Είμαι ο Μπομπ, πώς σε λένε;"   
 },   
@@ -154,19 +118,19 @@ I'm Bob, what's your name?
 "Hello!": "નમસ્તે!",   
 "I'm Bob, what's your name?": "હું બોબ છું, તમારું નામ શું છે?"   
 },   
-"iw-IL": {   
-"Hello!": "שלום!",   
-"I'm Bob, what's your name?": "אני בוב, איך קוראים לך?"   
+"iw": {   
+"Hello!": "!םולש",   
+"I'm Bob, what's your name?": "?ךל םיארוק ךיא ,בוב ינא"   
 },   
-"hi-IN": {   
+"hi": {   
 "Hello!": "नमस्ते!",   
 "I'm Bob, what's your name?": "मैं बॉब हूं, आपका नाम क्या है?"   
 },   
-"hu-HU": {   
+"hu": {   
 "Hello!": "Helló!",   
 "I'm Bob, what's your name?": "Bob vagyok, hogy hívnak?"   
 },   
-"is-IS": {   
+"is": {   
 "Hello!": "Halló!",   
 "I'm Bob, what's your name?": "Ég er Bob, hvað heitir þú?"   
 },   
@@ -174,15 +138,15 @@ I'm Bob, what's your name?
 "Hello!": "Halo!",   
 "I'm Bob, what's your name?": "Saya Bob, siapa namamu?"   
 },   
-"it-IT": {   
+"it": {   
 "Hello!": "Ciao!",   
 "I'm Bob, what's your name?": "Sono Bob, come ti chiami?"   
 },   
-"ja-JP": {   
+"ja": {   
 "Hello!": "こんにちは！",   
 "I'm Bob, what's your name?": "私はボブです、あなたの名前は何ですか?"   
 },   
-"kn-IN": {   
+"kn": {   
 "Hello!": "ನಮಸ್ಕಾರ!",   
 "I'm Bob, what's your name?": "ನಾನು ಬಾಬ್, ನಿನ್ನ ಹೆಸರೇನು?"   
 },   
@@ -190,19 +154,19 @@ I'm Bob, what's your name?
 "Hello!": "Сәлеметсіз бе!",   
 "I'm Bob, what's your name?": "Мен Бобмын, сенің атың кім?"   
 },   
-"km-KH": {   
+"km": {   
 "Hello!": "សួស្តី!",   
 "I'm Bob, what's your name?": "ខ្ញុំឈ្មោះ Bob តើអ្នកឈ្មោះអ្វី?"   
 },   
-"ko-KR": {   
+"ko": {   
 "Hello!": "안녕하세요!",   
 "I'm Bob, what's your name?": "저는 밥입니다. 당신의 이름은 무엇입니까?"   
 },   
-"ky-KG": {   
+"ky": {   
 "Hello!": "Салам!",   
 "I'm Bob, what's your name?": "Мен Бобмын, сенин атың ким?"   
 },   
-"lo-LA": {   
+"lo": {   
 "Hello!": "ສະບາຍດີ!",   
 "I'm Bob, what's your name?": "ຂ້ອຍຊື່ Bob, ເຈົ້າຊື່ຫຍັງ?"   
 },   
@@ -214,7 +178,7 @@ I'm Bob, what's your name?
 "Hello!": "Sveiki!",   
 "I'm Bob, what's your name?": "Aš Bobas, koks tavo vardas?"   
 },   
-"mk-MK": {   
+"mk": {   
 "Hello!": "Здраво!",   
 "I'm Bob, what's your name?": "Јас сум Боб, како се викаш?"   
 },   
@@ -222,27 +186,23 @@ I'm Bob, what's your name?
 "Hello!": "hello!",   
 "I'm Bob, what's your name?": "Saya Bob, siapa nama awak?"   
 },   
-"ms-MY": {   
-"Hello!": "hello!",   
-"I'm Bob, what's your name?": "Saya Bob, siapa nama awak?"   
-},   
-"ml-IN": {   
+"ml": {   
 "Hello!": "ഹലോ!",   
 "I'm Bob, what's your name?": "ഞാൻ ബോബ്, നിങ്ങളുടെ പേരെന്താണ്?"   
 },   
-"mr-IN": {   
+"mr": {   
 "Hello!": "नमस्कार!",   
 "I'm Bob, what's your name?": "मी बॉब आहे, तुझे नाव काय आहे?"   
 },   
-"mn-MN": {   
+"mn": {   
 "Hello!": "Сайн уу?",   
 "I'm Bob, what's your name?": "Би бол Боб, чамайг хэн гэдэг вэ?"   
 },   
-"ne-NP": {   
+"ne": {   
 "Hello!": "नमस्ते!",   
 "I'm Bob, what's your name?": "म बब हुँ, तिम्रो नाम के हो?"   
 },   
-"no-NO": {   
+"no": {   
 "Hello!": "Hallo!",   
 "I'm Bob, what's your name?": "Jeg er Bob, hva heter du?"   
 },   
@@ -250,29 +210,13 @@ I'm Bob, what's your name?
 "Hello!": "!ﻡﻼ﻿ﺳ",   
 "I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"   
 },   
-"fa-AE": {   
-"Hello!": "!ﻡﻼ﻿ﺳ",   
-"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"   
-},   
-"fa-AF": {   
-"Hello!": "!ﻡﻼ﻿ﺳ",   
-"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"   
-},   
-"fa-IR": {   
-"Hello!": "!ﻡﻼ﻿ﺳ",   
-"I'm Bob, what's your name?": "؟ﺖﺴﯿﭼ ﻮﺗ ﻡﺎﻧ ،ﻢﺘﺴﻫ ﺏﺎﺑ ﻦﻣ"   
-},   
-"pl-PL": {   
+"pl": {   
 "Hello!": "Cześć!",   
 "I'm Bob, what's your name?": "Jestem Bob, jak masz na imię?"   
 },   
-"pt-BR": {   
+"pt": {   
 "Hello!": "Olá!",   
 "I'm Bob, what's your name?": "Eu sou Bob, qual é o seu nome?"   
-},   
-"pt-PT": {   
-"Hello!": "Olá;!",   
-"I'm Bob, what's your name?": "Eu sou o Bob, qual é o seu nome?"   
 },   
 "pa": {   
 "Hello!": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ!",   
@@ -282,7 +226,7 @@ I'm Bob, what's your name?
 "Hello!": "Buna ziua!",   
 "I'm Bob, what's your name?": "Eu sunt Bob, cum te numești?"   
 },   
-"ru-RU": {   
+"ru": {   
 "Hello!": "Привет!",   
 "I'm Bob, what's your name?": "Я Боб, как тебя зовут?"   
 },   
@@ -290,7 +234,7 @@ I'm Bob, what's your name?
 "Hello!": "Здраво!",   
 "I'm Bob, what's your name?": "Ја сам Боб, како се зовеш?"   
 },   
-"si-LK": {   
+"si": {   
 "Hello!": "ආයුබෝවන්!",   
 "I'm Bob, what's your name?": "මම බොබ්, ඔබේ නම කුමක්ද?"   
 },   
@@ -306,27 +250,19 @@ I'm Bob, what's your name?
 "Hello!": "¡Hola!",   
 "I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"   
 },   
-"es-ES": {   
-"Hello!": "¡Hola!",   
-"I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"   
-},   
-"es-US": {   
-"Hello!": "¡Hola!",   
-"I'm Bob, what's your name?": "Soy Bob, ¿cómo te llamas?"   
-},   
 "sw": {   
 "Hello!": "Habari!",   
 "I'm Bob, what's your name?": "Mimi ni Bob, jina lako nani?"   
 },   
-"sv-SE": {   
+"sv": {   
 "Hello!": "Hallå!",   
 "I'm Bob, what's your name?": "Jag heter Bob, vad heter du?"   
 },   
-"ta-IN": {   
+"ta": {   
 "Hello!": "வணக்கம்!",   
 "I'm Bob, what's your name?": "நான் பாப், உன் பெயர் என்ன?"   
 },   
-"te-IN": {   
+"te": {   
 "Hello!": "హలో!",   
 "I'm Bob, what's your name?": "నేను బాబ్, నీ పేరు ఏమిటి?"   
 },   
@@ -334,7 +270,7 @@ I'm Bob, what's your name?
 "Hello!": "สวัสดี!",   
 "I'm Bob, what's your name?": "ฉันชื่อบ๊อบ คุณชื่ออะไร?"   
 },   
-"tr-TR": {   
+"tr": {   
 "Hello!": "Merhaba!",   
 "I'm Bob, what's your name?": "Ben Bob, adın ne?"   
 },   
@@ -355,4 +291,3 @@ I'm Bob, what's your name?
 "I'm Bob, what's your name?": "Ngingu-Bob, ungubani igama lakho?"   
 }   
 }   
-
