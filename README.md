@@ -1,5 +1,5 @@
 # localator
-bash script to generate i18n-js compatible locale.json files for Google Play's list of supported languages using translate-shell
+bash script to generate i18n-js compatible translations.json file for Google Play's list of supported languages using translate-shell
 
 # usage
 ./localator.sh strings.txt
