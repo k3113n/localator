@@ -135,18 +135,18 @@ output_file="translations.json"
 # Start JSON object
 echo "{" >> "$output_file"
 
-# Read each line from the file
-while IFS= read -r phrase || [ -n "$phrase" ]; do
-    # Skip empty lines
-    if [ -z "$phrase" ]; then
-        continue
-    fi
+# Translate the phrases for each language
+for lang_code in "${languages[@]}"; do
+    # Start JSON object for the language
+    echo "\"$lang_code\": {" >> "$output_file"
     
-    # Start JSON object for the phrase
-    echo -n "\"$phrase\": {" >> "$output_file"
+    # Read each line from the file
+    while IFS= read -r phrase || [ -n "$phrase" ]; do
+        # Skip empty lines
+        if [ -z "$phrase" ]; then
+            continue
+        fi
 
-    # Translate the phrase for each language
-    for lang_code in "${languages[@]}"; do
         # Translate phrase and capture errors
         translation=$(trans -b :"$lang_code" "$phrase" 2>/dev/null)
 
@@ -154,18 +154,17 @@ while IFS= read -r phrase || [ -n "$phrase" ]; do
         translation=$(echo "$translation" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
 
         # Add translation to the JSON object
-        echo -n "\"$lang_code\": \"$translation\"" >> "$output_file"
-        # Add comma unless it's the last language
-        if [ "$lang_code" != "${languages[-1]}" ]; then
-            echo -n "," >> "$output_file"
-        fi
-    done
+        echo "\"$phrase\": \"$translation\"," >> "$output_file"
+    done < "$phrases_file"
 
-    # End JSON object for the phrase
+    # Remove the trailing comma from the last phrase
+    sed -i '$ s/,$//' "$output_file"
+
+    # End JSON object for the language
     echo "}," >> "$output_file"
-done < "$phrases_file"
+done
 
-# Remove the trailing comma from the last phrase
+# Remove the trailing comma from the last language
 sed -i '$ s/,$//' "$output_file"
 
 # End JSON object
